@@ -1,0 +1,6 @@
+This is a spider to get china news from sina.
+And you can change the newsurl to get other news form internet.
+
+This spider requires the following module:
+	requests
+	BeautifulSoup
