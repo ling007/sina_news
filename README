@@ -1,6 +1,6 @@
-This is a spider to get china news from sina.
+This is a spider to get china news from sina and the contents will be saved in file named sinanews.json.
 And you can change the newsurl to get other news form internet.
 
-This spider requires the following module:
+This spider requires the following main module:
 	requests
 	BeautifulSoup

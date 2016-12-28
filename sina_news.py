@@ -54,7 +54,7 @@ def getUrls(urls):
 
 #结果以json格式保存到文件
 def saveTofile(data):
-	f = codecs.open(r'e:\pytest\sina.json','w+','utf-8')
+	f = codecs.open(r'e:\pytest\sinanews.json','w+','utf-8')
 	obj = json.dumps(data, ensure_ascii=False)
 	f.write(obj)
 	f.close()
